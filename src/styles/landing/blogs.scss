@@ -1,0 +1,124 @@
+.wrapper-fon {
+  background-image: url("../../../public/images/blogs/blog_fon.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  width: 100%;
+  height:100%;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+
+//////Fon////////////////
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-inner {
+  display: flex;
+  animation: carousel 30s linear infinite;
+}
+
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.carousel-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 210px;
+
+  @media (min-width: 992px) {
+    height: 420px;
+  }
+}
+
+.carousel-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carousel-image {
+  min-width: 150px;
+  height: 100px;
+  object-fit: cover;
+
+  @media (min-width: 992px) {
+    min-width: 300px;
+    height: 200px;
+  }
+}
+
+.carousel-image-lg {
+  min-width: 300px;
+  min-height: 210px;
+  object-fit: cover;
+
+  @media (min-width: 992px) {
+    min-width: 600px;
+    min-height: 420px;
+  }
+}
+
+.carousel-image-md {
+  min-width: 150px;
+  min-height: 210px;
+  object-fit: cover;
+
+  @media (min-width: 992px) {
+    min-width: 300px;
+    min-height: 420px;
+  }
+}
+
+.carousel-box {
+  background: #19161c;
+  border-radius: 5px;
+  min-width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: 992px) {
+    min-width: 300px;
+    height: 200px;
+  }
+}
+
+.carousel-desk {
+  font-family: "DM Sans", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #19fb9b !important;
+  margin-bottom: 11px;
+
+  @media (min-width: 992px) {
+    font-size: 42px !important;
+  }
+}
+
+.carousel-info {
+  font-family: "DM Sans", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 128%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #bababa !important;
+}

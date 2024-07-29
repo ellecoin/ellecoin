@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-family: 'Space Grotesk', 'DM Sans', 'Roboto', sans-serif;
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 1000px var(--color-bg-input) inset !important;
+  -webkit-text-fill-color: var(--color-text-input) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+@layer components {
+  .break-word {
+    word-break: break-word;
+  }
+}
+
+
+body {
+  font-family: 'Space Grotesk', 'DM Sans', 'Roboto', sans-serif;
+}

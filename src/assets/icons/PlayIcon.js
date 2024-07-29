@@ -1,0 +1,10 @@
+const PlayIcon = ({ width = 24, height = 24, color = '#30E0A1' }) => (
+	<svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path
+			d="M5 6.66333C5 5.081 6.75049 4.12532 8.08152 4.98097L16.383 10.3176C17.6076 11.1049 17.6076 12.8951 16.383 13.6824L8.08152 19.019C6.75049 19.8747 5 18.919 5 17.3367V6.66333Z"
+			fill={color}
+		/>
+	</svg>
+);
+
+export default PlayIcon;

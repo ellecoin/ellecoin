@@ -1,0 +1,128 @@
+.about-title {
+  font-family: "Space Grotesk", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 30px !important;
+  line-height: 70%;
+  letter-spacing: 0.01em;
+  color: var(--text-primary-color) !important;
+
+  @media (min-width: 992px) {
+    font-size: 60px !important;
+  }
+}
+
+.about-gallery-bg {
+  background-image: url("../../../public/images/about/about_fon.png");
+ 
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+
+  @media (min-width: 1280px) {
+    background-size: cover;
+  }
+
+  @media (max-width: 1279px) {
+    background-size: contain;
+  }
+}
+
+
+.about-text {
+  font-family: "DM Sans", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 22px !important;
+  line-height: 124% !important;
+  color: var(--text-gray);
+  margin-bottom: 60px !important;
+}
+
+.about-card > .ant-card-body {
+  padding: 0px !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+.about-card > .ant-card {
+  padding: 10px !important;
+}
+
+.about > .ant-card-hoverable {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.ant-card > .ant-card-cover {
+  margin-bottom: 20px;
+}
+
+.about-box > .ant-card-bordered {
+  border: none !important;
+}
+
+.about-brand-bg{
+  background-image: linear-gradient(180deg, #000 0%, #0a2303 100%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+///////Points//////////////////
+.point-name {
+  font-family: "Space Grotesk", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 30px !important;
+  line-height: 77%;
+  letter-spacing: 0.02em;
+  color: var(--text-primary-color) !important;
+
+  @media (min-width: 568px) {
+    font-size: 60px !important;
+  }
+}
+
+.point-title {
+  font-family: "DM Sans", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 28px !important;
+  line-height: 118%;
+  color: var(--text-primary-color) !important;
+}
+
+.point-text {
+  font-family: "DM Sans", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 152%;
+  color: var(--text-gray);
+}
+
+.point-box > .ant-card-body {
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+////brand////////////
+.brand-title {
+  font-family: "Space Grotesk", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 40px !important;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--text-primary-color) !important;
+  margin-bottom: 40px !important;
+
+  @media (min-width: 768px) {
+    font-size: 60px !important;
+    margin-bottom: 70px !important;
+    margin-top: 200px;
+  }
+}
